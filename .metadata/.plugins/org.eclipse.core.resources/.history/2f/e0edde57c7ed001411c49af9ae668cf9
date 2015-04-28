@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+
+public class LoopSums {
+	
+	static private double a, sum;
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Enter your inputs: ");
+		
+		while (in.hasNext()) {
+		} if (in.hasNextLine()) {
+			a = in.nextDouble();
+			sum = a + sum;
+			System.out.println(sum);
+		} else if (in.hasNextDouble()) {
+				a = in.nextDouble();
+				sum = a + sum;
+				System.out.println(sum);
+		}
+		
+		in.close();
+
+	}
+
+}
